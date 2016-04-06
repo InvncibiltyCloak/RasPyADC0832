@@ -26,7 +26,7 @@ When finished, clean up.
 adc.cleanup()
 ```
 
-## Configuration
+## Pin Configuration
 There arent many options in this library, because it is such a simple device. By default the CLK pin is on P1 header pin #16, both DATA_IN and DATA_OUT are connected to pin #22, and CSEL is connected to pin #18. These can be changed with keyword arguments to the ADC0832 constructor:
 ```
 adc = ADC0832(clk_pin = 16, data_pin = 22, csel_pin = 18)
