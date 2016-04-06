@@ -1,5 +1,5 @@
 # RasPyADC0832
-An extremely simple library to interact with an ADC0832 IC from a Raspberry Pi. It is able to work with both available channels. Does not support differential mode.
+An extremely simple Python library to interact with an ADC0832 IC from a Raspberry Pi. It is able to work with both available channels. Does not support differential mode.
 
 ## Dependencies
 This library depends on the RPi.GPIO library. This comes installed by default on Raspbian. Otherwise you can use `pip install RPi.GPIO` to install it.
